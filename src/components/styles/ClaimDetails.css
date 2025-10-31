@@ -1,0 +1,11 @@
+.claimDetails-container{
+  margin-bottom: 25px;
+}
+
+.claimDetails-container p{
+  margin: 10px 0;
+}
+
+.claimDetails-container span{
+  font-weight: 600;
+}

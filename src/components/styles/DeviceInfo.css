@@ -1,0 +1,51 @@
+.table-container{
+  margin-bottom: 20px;
+}
+
+.deviceInfo-table{
+  width: 100%;
+  font-size: 12px;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  border-collapse: collapse;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+.deviceInfo-table thead {
+  background-color: #efefef;
+}
+
+.deviceInfo-table th,
+.deviceInfo-table td{
+  text-align: left;
+  padding: 8px 14px;
+  border: 1px solid #e5e7eb;
+}
+
+.parties-table th,
+.parties-table td{
+  border: none;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.link {
+  color: #0e88f3;
+  cursor: pointer;
+  font-weight: 500;
+  text-decoration: underline;
+}
+
+.link:hover{
+  color: hsl(208, 91%, 40%);
+}
+
+/* === MEDIA QUERIES === */
+@media (max-width: 768px) {
+  .deviceInfo-table{
+    font-size: 12px;
+  }
+
+  .deviceInfo-table th,
+  .deviceInfo-table td{
+    padding: 8px 10px;
+  }
+}

@@ -1,0 +1,73 @@
+.claimCard-container{
+  width: 80%;
+  box-shadow: 0 0px 20px rgba(0, 0, 0, 0.09);
+  display: flex;
+  align-items: center;
+  padding: 30px 35px;
+  color: #7d7d7d;
+  margin-bottom: 70px;
+}
+
+.claimCard-details{
+  margin-right: 35px;
+}
+
+.claimCard-name{
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.claimCard-id{
+  color: #0e88f3;
+  text-decoration: underline;
+  cursor: pointer;
+  font-weight: 600;
+  margin-bottom: 7px;
+}
+
+.claimCard-id:hover,
+.claimCard-tag:hover{
+  color: hsl(208, 91%, 40%);
+}
+
+.claimCard-tag{
+  color: #0eaef3;
+  background-color: hsla(198, 91%, 50%, 0.13);
+  display: inline-block;
+  padding: 8px;
+  margin-bottom: 25px;
+}
+
+.claimCard-text{
+  letter-spacing: 2px;
+}
+
+.claimCard-icon{
+  color: #efefef;
+  font-size: 24px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+.star-icon{
+  color: rgb(255, 200, 0);
+}
+
+.claimCard-rating-container{
+  background-color: rgba(127, 198, 27, 0.15);
+  color: rgb(127, 198, 27);
+  padding: 40px 35px;
+  font-size: 40px;
+  font-weight: bold;
+  border-radius: 50%;
+}
+
+/* === MEDIA QUERIES === */
+@media (max-width: 768px) {
+  .claimCard-container{
+    width: 100%;
+    padding: 20px 25px;
+  }
+
+}

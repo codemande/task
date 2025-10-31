@@ -1,0 +1,49 @@
+.review-container{
+  margin: 50px 0;
+}
+
+.review-demage-text{
+  font-weight: 600;
+  margin-right: 10px;
+}
+
+.review-demage{
+  color: rgb(216, 25, 25);
+  border: 1.5px solid rgb(216, 25, 25);
+  padding: 5px 10px;
+  cursor: pointer;
+  vertical-align: middle;
+}
+
+.review-demage:hover{
+  color: hsl(0, 79%, 37%);
+}
+
+.review-demage-icon{
+  vertical-align: middle;
+  font-size: 25px;
+}
+
+.description-container{
+  margin-bottom: 18px;
+}
+
+.description-header{
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.description-text{
+  background-color: hsla(208, 91%, 50%, 0.12);
+  color: #0e88f3;
+  display: inline-block;
+  padding: 15px 25px;
+}
+
+/* === MEDIA QUERIES === */
+@media (max-width: 768px) {
+  .description-text{
+    padding: 10px 15px;
+  }
+}

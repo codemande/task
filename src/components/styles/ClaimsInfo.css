@@ -1,0 +1,13 @@
+.total{
+  text-align: right;
+  margin-bottom: 15px;
+}
+
+.total p{
+  margin: 5px 0;
+  font-weight: 600;
+}
+
+.total p:last-child{
+  color: #0a8cd2;
+}

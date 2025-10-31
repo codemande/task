@@ -1,0 +1,27 @@
+.app-container{
+  width: 600px;
+  margin: 0 auto;
+  background-color: white;
+}
+
+.app-components{
+  margin: 20px;
+}
+
+.app-header{
+  background-color: rgba(5, 63, 198, 0.909);
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+}
+
+/* === MEDIA QUERIES === */
+@media (max-width: 768px) {
+  .app-container{
+    width: 100%;
+  }
+
+  .app-components{
+    margin: 20px 10px;
+  }
+}
